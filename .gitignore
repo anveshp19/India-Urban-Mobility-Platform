@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Databricks credentials
+.databricks/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Generated data
+data/raw/
+data/processed/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
