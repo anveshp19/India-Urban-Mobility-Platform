@@ -31,3 +31,6 @@ data/processed/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+.databricks
+data/bronze/
+data/metadata/ingestion_runs/
