@@ -34,3 +34,28 @@ data/processed/
 .databricks
 data/bronze/
 data/metadata/ingestion_runs/
+
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Databricks generated files
+.databricks/
+.bundle/
+
+# IDE and operating system
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+
+
+# Generated type stubs
+typings/
